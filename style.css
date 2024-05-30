@@ -1,0 +1,348 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+@import url("https://fonts.cdnfonts.com/css/roslindale");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+body {
+  background-color: #f6f8eb;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 250px;
+}
+
+.logo-text {
+  font-family: "Roslindale";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 45px;
+  color: #4b7452;
+  margin: 0px;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+
+.header-navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+.header-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 13px;
+  list-style: none;
+}
+
+.header-navbar-button {
+  font-family: "Satoshi";
+  font-size: 25px;
+  color: #4b7452;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: end;
+  transition: 0.3s;
+}
+
+.header-navbar-button:hover {
+  color: #abbeac;
+  cursor: pointer;
+  scale: 1.02;
+}
+
+.hero-container {
+  width: 100%;
+}
+
+.hero-title {
+  font-family: "Dancing Script";
+  color: #4b7452;
+  font-size: 160px;
+  font-weight: 100;
+  width: 100%;
+}
+
+.t1 {
+  position: absolute;
+  top: 12%;
+  left: 12%;
+}
+
+.t2 {
+  position: absolute;
+  top: 32%;
+  left: 15%;
+}
+
+svg {
+  display: block;
+  height: 30px;
+  margin: 50px auto;
+}
+
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  top: 45%;
+  left: 20px;
+}
+
+.social-media-button {
+  background-color: #4b7452;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  border-radius: 7px;
+  transition: 0.3s ease;
+  font-family: "Satoshi";
+}
+
+.social-media-button:hover {
+  background-color: #abbeac;
+  cursor: pointer;
+  scale: 1.05;
+}
+
+.svg-logo {
+  width: 25px;
+  height: 20px;
+  margin: auto;
+}
+
+.composition-list-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #4b7452;
+  width: 200px;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  border-radius: 30px 0px 0px 30px;
+  height: 400px;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.composition-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30%;
+}
+
+.composition-element-title {
+  font-family: "Roslindale";
+  font-size: 22px;
+  color: #f6f8eb;
+  font-weight: 600;
+  text-align: center;
+  margin: 0px;
+}
+
+.composition-element-text {
+  font-family: "Satoshi";
+  font-size: 15px;
+  color: #f6f8eb;
+  font-weight: 400;
+  width: 80%;
+}
+
+.wl::after {
+  content: "";
+  width: 80%;
+  height: 1px;
+  background-color: #f6f8eb;
+  margin-top: 10px;
+}
+
+.catalog-item-container {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  position: absolute;
+  bottom: 50px;
+  left: 140px;
+}
+.catalog-item-label {
+  font-family: "Satoshi";
+  color: #4b7452;
+  background-color: #dadfd1;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.catalog-item-img-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96%;
+  height: 170px;
+  margin: auto;
+  margin-top: -10px;
+  z-index: -1;
+  margin-bottom: -10px;
+}
+
+.catalog-item-button {
+  background-color: #4b7452;
+  font-family: "Satoshi";
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.catalog-item-img-container img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.shop-now-button-container {
+  width: 12%;
+  display: flex;
+  margin: auto;
+  margin-top: 550px;
+}
+
+.home-page-container {
+  overflow: hidden;
+}
+
+.shop-now-button {
+  position: relative;
+  border: none;
+  outline: none;
+  background: none;
+  text-align: center;
+  font-family: "Satoshi";
+  color: #4b7452;
+  font-size: 45px;
+  border-left: 2px solid #4b7452;
+  border-right: 2px solid #4b7452;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.shop-now-button:hover {
+  color: white;
+  background-color: #4b7452;
+}
+
+.shop-now-button::after {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 3px;
+  background-color: #4b7452;
+  bottom: 0px;
+  left: -5%;
+}
+
+.shop-now-button::before {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 3px;
+  background-color: #4b7452;
+  top: 0px;
+  left: -5%;
+}
+.shop-now-button {
+  position: relative;
+}
+
+.shop-now-button::before,
+.shop-now-button::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #4b7452;
+}
+
+.shop-now-button::before {
+  width: 120%;
+  top: 0px;
+  left: -10%;
+}
+
+.shop-now-button::after {
+  width: 120%;
+  bottom: 0px;
+  left: -10%;
+}
+
+.background-images {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.matchabg {
+  position: absolute;
+  z-index: -1;
+  width: 500px;
+  top: 300px;
+  left: 900px;
+  rotate: 90deg;
+}
+
+.bgleave1 {
+  position: absolute;
+  z-index: -2;
+  width: 300px;
+  bottom: 0px;
+  right: -70px;
+}
+
+.bgleave2 {
+  position: absolute;
+  z-index: -2;
+  width: 230px;
+  top: 60px;
+  left: -70px;
+  rotate: 100deg;
+}
+
+.stripes-container {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.stripe {
+  width: 2px;
+  height: 100%;
+  background: #c9d2bb;
+  z-index: -2;
+}
