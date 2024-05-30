@@ -3,8 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 body {
   background-color: #f6f8eb;
-  width: 1920px;
-  height: 1080px;
   overflow: hidden;
 }
 
@@ -22,7 +20,7 @@ body {
   color: #4b7452;
   margin: 0px;
   position: absolute;
-  left: 20px;
+  left: 110px;
   top: 30px;
 }
 
@@ -31,7 +29,7 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 20px;
+  right: 110px;
   top: 30px;
 }
 
@@ -69,18 +67,25 @@ body {
   font-size: 160px;
   font-weight: 100;
   width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .t1 {
   position: absolute;
-  top: 12%;
-  left: 12%;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .t2 {
   position: absolute;
-  top: 32%;
-  left: 15%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 svg {
@@ -95,7 +100,7 @@ svg {
   gap: 15px;
   position: absolute;
   top: 45%;
-  left: 20px;
+  left: 110px;
 }
 
 .social-media-button {
@@ -177,7 +182,7 @@ svg {
   width: 10%;
   position: absolute;
   bottom: 50px;
-  left: 140px;
+  left: 210px;
 }
 .catalog-item-label {
   font-family: "Satoshi";
@@ -330,6 +335,15 @@ svg {
   top: 60px;
   left: -70px;
   rotate: 100deg;
+}
+
+.bgleave3 {
+  position: absolute;
+  z-index: -2;
+  width: 300px;
+  top: 130px;
+  right: -200px;
+  rotate: -30deg;
 }
 
 .stripes-container {
